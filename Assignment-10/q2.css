@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#redBtn {
+    background-color: red;
+    color: white;
+}
+
+#blueBtn {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
