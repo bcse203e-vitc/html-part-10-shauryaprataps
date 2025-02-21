@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#darkModeBtn {
+    background-color: black;
+    color: white;
+}
+
+#lightModeBtn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
