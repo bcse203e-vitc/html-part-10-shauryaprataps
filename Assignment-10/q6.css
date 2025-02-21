@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.gallery {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
