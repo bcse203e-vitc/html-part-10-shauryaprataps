@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="q3.css">
+</head>
+<body>
+    <div class="container">
+        <h1></h1>Pizza Order Form</h1>
+
+        <form id="pizzaForm">
+            <h2>Select Pizza Size:</h2>
+            <label><input type="radio" name="size" value="Small" required> Small</label>
+            <label><input type="radio" name="size" value="Medium"> Medium</label>
+            <label><input type="radio" name="size" value="Large"> Large</label>
+
+            <h2>Select Toppings:</h2>
+            <label><input type="checkbox" name="topping" value="Cheese"> Cheese</label>
+            <label><input type="checkbox" name="topping" value="Pepperoni"> Pepperoni</label>
+            <label><input type="checkbox" name="topping" value="Mushrooms"> Mushrooms</label>
+            <label><input type="checkbox" name="topping" value="Olives"> Olives</label>
+            <label><input type="checkbox" name="topping" value="Onions"> Onions</label>
+            <label><input type="checkbox" name="topping" value="Tomatoes"> Tomatoes</label>
+
+            <button type="submit">Submit Order</button>
+        </form>
+
+        <div id="orderSummary"></div>
+    </div>
+
+    <script src="q3.js"></script>
+</body>
+</html>
